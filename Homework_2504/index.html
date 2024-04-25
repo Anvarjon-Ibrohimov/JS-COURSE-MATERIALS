@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="./css/main.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="form">
+        <h2 class="form-header">Easy-peasy contact form 😃😀</h2>
+        <form action="#">
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="type your name..."
+            onkeyup="wordFocus()"
+          />
+          <input
+            type="text"
+            id="age"
+            name="age"
+            placeholder="type your age..."
+            onkeyup="wordFocus2()"
+          />
+          <input
+            type="text"
+            id="marriage"
+            name="marriage"
+            placeholder="are you married 🫰(yes/no)"
+            onkeyup="wordFocus3()"
+          />
+          <button
+            id="btnSUB"
+            type="button"
+          >
+            Submit
+          </button>
+          <button
+            id="btnCAN"
+            type="button"
+          >
+            Cancel
+          </button>
+          <div id="result"></div>
+          <div id="bottom"></div>
+        </form>
+      </div>
+    </div>
+    <script src="./js/main.js"></script>
+  </body>
+</html>

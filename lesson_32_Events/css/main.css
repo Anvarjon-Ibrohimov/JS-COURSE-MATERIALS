@@ -1,0 +1,23 @@
+.addition {
+  width: 200px;
+  height: 40px;
+  border: none;
+  background-color: green;
+  color: #fff;
+  font-size: 20px;
+  display: inline-block;
+  border-radius: 20px;
+}
+.subs {
+  width: 200px;
+  height: 40px;
+  border: none;
+  background-color: red;
+  color: #fff;
+  font-size: 20px;
+  display: inline-block;
+  border-radius: 20px;
+}
+p {
+  display: inline-block;
+}

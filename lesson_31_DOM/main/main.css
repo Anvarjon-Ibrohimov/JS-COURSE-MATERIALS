@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
+}
+.container {
+  width: 1200px;
+  background-color: #000;
+  border-radius: 7px;
+  margin: 40px auto;
+  display: flex;
+  padding: 10px;
+  gap: 10px;
+}
+.square {
+  width: 120px;
+  height: 120px;
+  background-color: #fff;
+  border-radius: 7px;
+  display: inline-block;
+}
+
+.circle {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background-color: green;
+  display: inline-block;
+}
