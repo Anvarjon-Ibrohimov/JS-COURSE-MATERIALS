@@ -1,0 +1,79 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+.form {
+  width: 500px;
+  margin: 0 auto;
+  box-shadow: 5px 10px 15px rgba(0, 0, 0, 0.7);
+  padding: 20px;
+}
+.form h2 {
+  text-align: center;
+  font-family: sans-serif;
+  color: #0e0c0c;
+  margin-bottom: 10px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+form input {
+  width: 100%;
+  margin: 10px 0px;
+  height: 30px;
+  padding: 5px 10px;
+  border: none;
+  border-bottom: 1px solid #909090;
+  outline: none;
+}
+#btnSUB {
+  background-color: rgb(35, 152, 35);
+  padding: 5px 10px;
+  border: none;
+  color: #fff;
+  text-transform: uppercase;
+  font-family: sans-serif;
+  font-size: 16px;
+}
+#btnCancel {
+  background-color: rgb(176, 23, 23);
+  padding: 5px 10px;
+  border: none;
+  color: #fff;
+  text-transform: uppercase;
+  font-family: sans-serif;
+  font-size: 16px;
+}
+#bottom {
+  width: 100%;
+  min-height: 100px;
+  border: 2px solid #909090;
+  margin-top: 20px;
+  border-top: none;
+}
+#bottom p {
+  font-family: sans-serif;
+  margin: 5px 10px;
+  font-size: 18px;
+}
+.Message {
+  animation-name: anim;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+@keyframes anim {
+  50% {
+    transform: translateX(300px);
+  }
+}

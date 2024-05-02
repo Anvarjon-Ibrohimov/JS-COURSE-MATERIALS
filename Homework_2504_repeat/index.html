@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>Task</title>
+    <link
+      rel="stylesheet"
+      href="./css/main.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="form">
+        <h2>Easy-Peasy Contact Form 😎</h2>
+        <form action="#">
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="type your name..."
+            autocomplete="off"
+          />
+          <input
+            type="number"
+            id="age"
+            name="age"
+            autocomplete="off"
+            placeholder="type your age..."
+          />
+          <input
+            type="text"
+            id="marriage"
+            name="marriage"
+            autocomplete="off"
+            placeholder="are you married 🫰 (yes/no)"
+          />
+        </form>
+        <button
+          type="button"
+          id="btnSUB"
+        >
+          Submit
+        </button>
+        <button
+          type="reset"
+          id="btnCancel"
+        >
+          cancel
+        </button>
+        <div id="bottom">
+          <p class="fName"></p>
+          <p class="fAge"></p>
+          <p class="fmarriage"></p>
+        </div>
+        <div id="btn-res">
+          <p class="Message"></p>
+        </div>
+      </div>
+    </div>
+    <script src="./js/index.js"></script>
+  </body>
+</html>
