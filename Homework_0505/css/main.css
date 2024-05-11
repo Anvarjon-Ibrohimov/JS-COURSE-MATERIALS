@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+}
+.container {
+  display: flex;
+  width: 90vh;
+}
+.container .panel:nth-child(1) {
+  background-image: url("../images/Jakie.webp");
+}
+.container .panel:nth-child(2) {
+  background-image: url("../images/brusli.webp");
+}
+.container .panel:nth-child(3) {
+  background-image: url("../images/vandam.jpeg");
+}
+.container .panel:nth-child(4) {
+  background-image: url("../images/jetli.webp");
+}
+.container .panel:nth-child(5) {
+  background-image: url("../images/terminator.jpeg");
+}
+.panel {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 85vh;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  flex: 0.5;
+  margin: 10px;
+  transition: all 0.7s ease-in;
+  position: relative;
+}
+.panel h3 {
+  font-size: 24px;
+  margin: 0;
+  opacity: 0;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.panel.active {
+  flex: 5;
+}
+.panel.active h3 {
+  opacity: 1;
+  transition: opacity 0.3s ease-in 0.4s;
+}
